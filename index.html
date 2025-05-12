@@ -8,34 +8,39 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/9ab3ae9094.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="main">
       <div class="inner">
         <h1>原圭太のウェブサイト</h1>
+        <p>画像をクリックすると音楽の再生、停止ができます。
+        </p>
         <h2>ミニアルバム「Okaboo」</h2>
         <div class="all-container">
           <div class="single-items">
             <div class="image-area">
               <img src="./img/bubblegum.jpg" alt="サンプルの画像">
+              <i class="fa-solid fa-circle-play play-icon"></i>
+              <figure>
+                <audio controls class="audio-player" src="music/2025_04_22_babblegum.wav"></audio>
+              </figure>
             </div>
             <div class="info-area">
-              <h3 class="single-title">木琴</h3>
-              <figure>
-                <audio controls class="music" src="/music/2022_07_21_mokkin.wav"></audio>
-              </figure>
+              <h3 class="single-title">木琴</h3>              
               <time datetime="2022-07-22">2022.07.21</time>
             </div>
           </div>
           <div class="single-items">
             <div class="image-area">
               <img src="./img/xylophone.jpg" alt="サンプルの画像">
+              <i class="fa-solid fa-circle-play play-icon"></i>
+              <figure>
+                <audio controls class="audio-player" src="/music/2022_07_21_mokkin.wav"></audio>
+              </figure>
             </div>
             <div class="info-area">
               <h3 class="single-title">babblegum</h3>
-              <figure>
-                <audio controls class="music" src="/music/2025_04_22_babblegum.wav"></audio>
-              </figure>
               <time datetime="2025-04-22">2025.04.22</time>
             </div>
           </div>

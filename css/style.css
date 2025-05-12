@@ -15,3 +15,33 @@
 .single-items {
   opacity: 0;
 }
+
+.image-area {
+  position: relative;
+}
+
+.image-area img {
+  transition: 0.4s;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.image-area:hover .play-icon {
+  opacity: 1;
+}
+
+.image-area img:hover {
+  filter: grayscale(1);
+}
+
+.audio-player {
+  display: none;
+}
