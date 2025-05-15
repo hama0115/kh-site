@@ -43,10 +43,15 @@
 }
 
 .info-area {
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #f5f5f5;
+  opacity: 0.9;
   padding: 20px;
+}
+.single-items:hover .info-area {
+  display: block;
 }
