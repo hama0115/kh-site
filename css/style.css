@@ -7,8 +7,8 @@
 }
 
 .all-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  column-count: 2;
+  column-gap: 0;
 }
 
 .single-items {
@@ -21,22 +21,9 @@
 }
 
 .image-area img {
+  display: block;
   transition: 0.4s;
 }
-/* .play-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 6rem;
-  color: #fff;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-}
-.image-area:hover .play-icon {
-  opacity: 1;
-} */
 
 .image-area img:hover {
   filter: grayscale(1);
